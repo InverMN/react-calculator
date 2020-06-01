@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Screen from './Screen'
 import Keyboard from './Keyboard'
+import './style.css'
 
 class App extends Component {
 	constructor(props) {
