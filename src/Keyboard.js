@@ -22,7 +22,7 @@ class Keyboard extends Component {
 				<button onClick={() => this.props.type('+')}>+</button>
 				<button onClick={() => this.props.type('0')}>0</button>
 				<button onClick={() => this.props.type('.')}>.</button>
-				<button onClick={() => this.props.solve()}>=</button>
+				<button style={{flex: "0 0 47.2%"}} onClick={() => this.props.solve()}>=</button>
 			</div>
 		)
 	}
