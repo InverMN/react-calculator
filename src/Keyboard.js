@@ -6,12 +6,12 @@ class Keyboard extends Component {
 			<div className="Keyboard">
 				<button onClick={() => this.props.clear()}>C</button>
 				<button onClick={() => this.props.type('%')}>%</button>
-				<button onClick={() => this.props.deleteLast()}><i class="fas fa-backspace"></i></button>
-				<button onClick={() => this.props.type('/')}><i class="fas fa-divide"></i></button>
+				<button onClick={() => this.props.deleteLast()}><i className="fas fa-backspace"></i></button>
+				<button onClick={() => this.props.type('/')}><i className="fas fa-divide"></i></button>
 				<button onClick={() => this.props.type('7')}>7</button>
 				<button onClick={() => this.props.type('8')}>8</button>
 				<button onClick={() => this.props.type('9')}>9</button>
-				<button onClick={() => this.props.type('*')}><i class="fas fa-times"></i></button>
+				<button onClick={() => this.props.type('*')}><i className="fas fa-times"></i></button>
 				<button onClick={() => this.props.type('4')}>4</button>
 				<button onClick={() => this.props.type('5')}>5</button>
 				<button onClick={() => this.props.type('6')}>6</button>
