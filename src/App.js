@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Screen from './Screen'
+import Keyboard from './Keyboard'
 
 class App extends Component {
 	constructor(props) {
@@ -16,7 +17,7 @@ class App extends Component {
 				<Screen 
 					expression={this.state.expression}
 				/>
-				{/* <Keyboard /> */}
+				<Keyboard />
 			</div>
 		)
 	}
